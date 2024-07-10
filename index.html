@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Recipe App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav id="navbar"></nav>
+  </header>
+  <main>
+    <section id="search-page" class="page">
+      <h2>Search Recipes</h2>
+      <input type="text" id="search-input" placeholder="Enter recipe name">
+      <button id="search-button">Search</button>
+      <div id="search-results"></div>
+    </section>
+    <section id="recipe-of-the-day-page" class="page">
+      <h2>Recipe of the Day</h2>
+      <div id="recipe-of-the-day"></div>
+    </section>
+    <section id="random-recipes-page" class="page">
+      <h2>Random Recipes</h2>
+      <button id="random-recipes-button">Get Random Recipes</button>
+      <div id="random-recipes"></div>
+    </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
